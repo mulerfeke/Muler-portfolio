@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cea038b5f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/muller-home-logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#contact">contact </a></li>   
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>front-end developer</p>
+            <h1>Hi, I'm <span>Mulugeta</span> <br>Junior front-end developer </h1>
+        </div>
+    </div>
+   </div>
+   <!--------------about---------->
+   <div id="about">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/user.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="detail">Hi there, I'm a graduate of hawassa university with bachelors of science degree in electromechanical enginering with good grade. <br>
+            currently I'm freelancer in upwork and fiver with the knowledge I got from online learning and practice</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>web development</span><br>develop a website for you business, <br>educational purpose</li>
+                    <li><span>HTML,CSS,JS</span><br>learn those web tools in short time </li>
+                    <li><span>web development</span><br>develop a website for you business, <br>educational purpose</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experiences">
+                <ul>
+                    <li><span>electrical engineer</span><br>at yonatan BT MG gypsom</li>
+                    <li><span>IT specialist </span><br>at angafa sport betting PLC </li>
+                    <li><span>traniee engineer</span><br>at Ethio-enginnering group</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>electromechanical engineering </span><br>from hawassa university</li>
+                    <li><span>HTML,CSS,JS</span><br>online coursera</li>
+                    <li><span>bussiness management</span><br>riftvalley university collage </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div id="services">
+    <div class="contaner">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>Dolorem perspiciatis iste eum quas voluptates, similique nihil nisi laboriosam veritatis nemo incidunt facere repudiandae mollitia suscipit unde iure sit accusantium cupiditate?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>web development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>Dolorem perspiciatis iste eum quas voluptates, similique nihil nisi laboriosam veritatis nemo incidunt facere repudiandae mollitia suscipit unde iure sit accusantium cupiditate?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-css3"></i>
+                <h2>web development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br>Dolorem perspiciatis iste eum quas voluptates, similique nihil nisi laboriosam veritatis nemo incidunt facere repudiandae mollitia suscipit unde iure sit accusantium cupiditate?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+   </div>
+   <!---------------------portfolio------------------>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work6.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping</h3>
+                    <p>you can get in touch with each other using this social media app developed by muler feke </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>you can get in touch with each other using this social media app developed by muler feke </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/6.png" alt="">
+                <div class="layer">
+                    <h3>Online Learning</h3>
+                    <p>you can get in touch with each other using this social media app developed by muler feke </p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+   <!--------------contact---------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mulerfeke@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+251920534966</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/999999.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i> By Mulerfeke </p>
+    </div>
+   </div>
+   <script src="index.js"> </script>
+</body>
+</html>
